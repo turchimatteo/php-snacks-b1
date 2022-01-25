@@ -3,21 +3,20 @@ Creiamo un array contenente le partite di basket di un’ipotetica tappa del cal
 Ogni array avrà una squadra di casa e una squadra ospite, punti fatti dalla squadra di casa e punti fatti dalla squadra ospite. 
 Stampiamo a schermo tutte le partite con questo schema. Olimpia Milano - Cantù | 55-60 -->
 <?php 
-    $partite = {
+    $partite = [
         [
-            "squadra-casa" => "Olimpia Milano",
-            "squadra-ospite" => "Cantù",
-            "punteggio-casa" => 55,
-            "punteggio-ospite" => 60,
-        ];
+            'squadra-casa' => 'Olimpia Milano',
+            'squadra-ospite' => 'Cantù',
+            'punteggio-casa' => 55,
+            'punteggio-ospite' => 60,
+        ],
         [
-            "squadra-casa" => "Virtus",
-            "squadra-ospite" => "Dinamo",
-            "punteggio-casa" => 58,
-            "punteggio-ospite" => 40,
-        ];
-    };
-    var_dump ($partite["squadra casa"] - $partite["squadra-ospite"] | $partite["punteggio"]);
+            'squadra-casa' => 'Virtus',
+            'squadra-ospite' => 'Dinamo',
+            'punteggio-casa' => 58,
+            'punteggio-ospite' => 40,
+        ],
+    ];
 ?>
 <!DOCTYPE html>
 <html lang="en">
